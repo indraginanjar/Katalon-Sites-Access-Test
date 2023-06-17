@@ -20,8 +20,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.takeScreenshotAsCheckpoint(pageName)
-
 WebUI.callTestCase(
 	findTestCase('Test Cases/Steps/Verify element is present'),
 	[presentElementName:presentElementName, presentElementXpath: presentElementXpath]
@@ -31,4 +29,7 @@ WebUI.callTestCase(
 	findTestCase('Test Cases/Steps/Verify element is visible'),
 	[visibleElementName:visibleElementName, visibleElementXpath: visibleElementXpath]
 	)
-	
+
+WebUI.takeScreenshotAsCheckpoint(pageName)
+
+WebUI.delay(3)

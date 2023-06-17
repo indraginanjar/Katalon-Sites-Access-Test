@@ -10,22 +10,15 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.SelectorMethod
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.testobject.TestObjectXpath
+import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-TestObject presentElement = new TestObject(presentElementName)
+'''Given I have opened web browser
+When I open katalon admin site
+Then I verify the admin site is opened succesfully'''
+CucumberKW.runFeatureFileWithTags('Include/features/Katalon sites.feature', '@KatalonAdminSite')
 
-TestObjectXpath presentElementXpath = new TestObjectXpath('xpath', ConditionType.EXPRESSION, presentElementXpath)
-
-presentElement.addXpath(presentElementXpath)
-
-presentElement.setSelectorMethod(SelectorMethod.XPATH)
-
-WebUI.verifyElementPresent(presentElement, 30, FailureHandling.STOP_ON_FAILURE)
