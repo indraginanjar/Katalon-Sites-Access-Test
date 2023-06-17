@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify element is present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58616dc1-c927-4cdd-872e-88bccf40dc5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f18a8590-2996-410a-8e34-c5cdc48067e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d72fa68-521b-4b59-8b40-4039240b4f3e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abdb8288-8935-4ee2-8c44-e4cd541d41c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f18a8590-2996-410a-8e34-c5cdc48067e8</id>
+      <masked>false</masked>
+      <name>pageName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d72fa68-521b-4b59-8b40-4039240b4f3e</id>
+      <masked>false</masked>
+      <name>presentElementName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abdb8288-8935-4ee2-8c44-e4cd541d41c5</id>
+      <masked>false</masked>
+      <name>presentElementXpath</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Katalon official</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon.com/'</initValue>
+      <name>katalonWebUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://admin.katalon.com/'</initValue>
+      <name>katalonAdminWebUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://testops.katalon.io/'</initValue>
+      <name>katalonTestopsWebUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://store.katalon.com/'</initValue>
+      <name>katalonStoreWebUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

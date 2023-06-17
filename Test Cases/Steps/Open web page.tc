@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open web page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01a0460a-b4e1-43e7-8b37-a8cde984115f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee504bc8-6a4b-4ff8-9374-14f2b9d404ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee504bc8-6a4b-4ff8-9374-14f2b9d404ef</id>
+      <masked>false</masked>
+      <name>pageUrl</name>
+   </variable>
+</TestCaseEntity>
