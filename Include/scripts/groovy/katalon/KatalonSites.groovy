@@ -43,7 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class KatalonSites {
 
 	@Given("I have opened web browser")
@@ -70,7 +69,11 @@ class KatalonSites {
 
 		verificationParam['visibleElementXpath'] = "//a[@class='katalon_logo']/img[@alt='Katalon']"
 
-		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+		verificationParam['visibleCheckpointElementName'] = 'Website Big title'
+
+		verificationParam['visibleCheckpointElementXpath'] = "//section[@class='hero_section']//h1[@class='hero_title']"
+
+		WebUI.callTestCase(findTestCase('Test Cases/Tests/Katalon website is opened succesfully'), null)
 	}
 
 	@When("I open katalon admin site")
@@ -83,14 +86,18 @@ class KatalonSites {
 		Map verificationParam = [:]
 
 		verificationParam['pageName'] = 'Katalon admin site'
-
+		
 		verificationParam['presentElementName'] = 'Page title'
-
+		
 		verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Platform']"
-
+		
 		verificationParam['visibleElementName'] = 'Katalon logo'
-
+		
 		verificationParam['visibleElementXpath'] = "//div[@class='katalon-logo mb-5']/img[@alt='Katalon platform Logo']"
+		
+		verificationParam['visibleCheckpointElementName'] = 'Admin site Login form'
+		
+		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
 
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
 	}
@@ -114,6 +121,10 @@ class KatalonSites {
 
 		verificationParam['visibleElementXpath'] = "//div[@class='login-test-opts-logo mb-5']/img[@alt='Test Opts Logo']"
 
+		verificationParam['visibleCheckpointElementName'] = 'Testops site Login form'
+
+		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
+
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
 	}
 
@@ -135,6 +146,10 @@ class KatalonSites {
 		verificationParam['visibleElementName'] = 'Katalon Store logo'
 
 		verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
+
+		verificationParam['visibleCheckpointElementName'] = 'Store site address on footer'
+
+		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
 
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
 	}
