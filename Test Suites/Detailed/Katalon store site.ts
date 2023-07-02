@@ -22,7 +22,7 @@
       <guid>93371fd0-7584-4285-b925-2b0718722982</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/Katalon store site is opened succesfully</testCaseId>
+      <testCaseId>Test Cases/Tests/Katalon store site is opened successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

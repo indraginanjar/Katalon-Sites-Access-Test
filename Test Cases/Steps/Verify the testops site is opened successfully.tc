@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the testops site is opened successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a7b5cce-6e3a-4674-803d-106bc2f61fd8</testCaseGuid>
+</TestCaseEntity>

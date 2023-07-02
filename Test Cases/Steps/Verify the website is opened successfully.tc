@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the website is opened successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3877b13-aa84-4a8d-bc8f-9ab893a6b030</testCaseGuid>
+</TestCaseEntity>

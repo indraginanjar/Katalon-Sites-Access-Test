@@ -18,22 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonStoreWebUrl])
+WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonWebUrl])
 
-Map verificationParam = [:]
-
-verificationParam['pageName'] = 'Katalon store site'
-
-verificationParam['presentElementName'] = 'Page title'
-
-verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Store - Explore Plugins for Katalon Studio']"
-
-verificationParam['visibleElementName'] = 'Katalon Store logo'
-
-verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
-
-verificationParam['visibleCheckpointElementName'] = 'Store site address on footer'
-
-verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
-
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the website is opened successfully'), null)

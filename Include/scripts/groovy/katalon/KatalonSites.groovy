@@ -57,23 +57,7 @@ class KatalonSites {
 
 	@Then("I verify the website is opened succesfully")
 	def I_verify_the_website_is_opened_succesfully() {
-		Map verificationParam = [:]
-
-		verificationParam['pageName'] = 'Katalon website'
-
-		verificationParam['presentElementName'] = 'Page title'
-
-		verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Software Quality Management Platform']"
-
-		verificationParam['visibleElementName'] = 'Katalon logo'
-
-		verificationParam['visibleElementXpath'] = "//a[@class='katalon_logo']/img[@alt='Katalon']"
-
-		verificationParam['visibleCheckpointElementName'] = 'Website Big title'
-
-		verificationParam['visibleCheckpointElementXpath'] = "//section[@class='hero_section']//h1[@class='hero_title']"
-
-		WebUI.callTestCase(findTestCase('Test Cases/Tests/Katalon website is opened succesfully'), null)
+		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the website is opened successfully'), null)
 	}
 
 	@When("I open katalon admin site")
@@ -83,23 +67,7 @@ class KatalonSites {
 
 	@Then("I verify the admin site is opened succesfully")
 	def I_verify_the_admin_site_is_opened_succesfully() {
-		Map verificationParam = [:]
-
-		verificationParam['pageName'] = 'Katalon admin site'
-		
-		verificationParam['presentElementName'] = 'Page title'
-		
-		verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Platform']"
-		
-		verificationParam['visibleElementName'] = 'Katalon logo'
-		
-		verificationParam['visibleElementXpath'] = "//div[@class='katalon-logo mb-5']/img[@alt='Katalon platform Logo']"
-		
-		verificationParam['visibleCheckpointElementName'] = 'Admin site Login form'
-		
-		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
-
-		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the admin site is opened successfully'), null)
 	}
 
 	@When("I open katalon testops site")
@@ -109,23 +77,7 @@ class KatalonSites {
 
 	@Then("I verify the testops site is opened succesfully")
 	def I_verify_the_testops_site_is_opened_succesfully() {
-		Map verificationParam = [:]
-
-		verificationParam['pageName'] = 'Katalon testops site'
-
-		verificationParam['presentElementName'] = 'Page title'
-
-		verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon TestOps']"
-
-		verificationParam['visibleElementName'] = 'Katalon logo'
-
-		verificationParam['visibleElementXpath'] = "//div[@class='login-test-opts-logo mb-5']/img[@alt='Test Opts Logo']"
-
-		verificationParam['visibleCheckpointElementName'] = 'Testops site Login form'
-
-		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
-
-		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the testops site is opened successfully'), null)
 	}
 
 	@When("I open katalon store site")
@@ -135,22 +87,6 @@ class KatalonSites {
 
 	@Then("I verify the store site is opened succesfully")
 	def I_verify_the_store_site_is_opened_succesfully() {
-		Map verificationParam = [:]
-
-		verificationParam['pageName'] = 'Katalon store site'
-
-		verificationParam['presentElementName'] = 'Page title'
-
-		verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Store - Explore Plugins for Katalon Studio']"
-
-		verificationParam['visibleElementName'] = 'Katalon Store logo'
-
-		verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
-
-		verificationParam['visibleCheckpointElementName'] = 'Store site address on footer'
-
-		verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
-
-		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the store site is opened successfully'), null)
 	}
 }
