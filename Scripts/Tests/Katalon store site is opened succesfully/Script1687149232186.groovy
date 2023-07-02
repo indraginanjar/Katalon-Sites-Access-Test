@@ -32,7 +32,7 @@ verificationParam['visibleElementName'] = 'Katalon Store logo'
 
 verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
 
-verificationParam['visibleCheckpointElementName'] = 'Katalon store address on footer'
+verificationParam['visibleCheckpointElementName'] = 'Store site address on footer'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
 

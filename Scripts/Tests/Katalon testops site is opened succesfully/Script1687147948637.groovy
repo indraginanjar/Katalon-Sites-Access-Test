@@ -32,7 +32,7 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//div[@class='login-test-opts-logo mb-5']/img[@alt='Test Opts Logo']"
 
-verificationParam['visibleCheckpointElementName'] = 'Login form'
+verificationParam['visibleCheckpointElementName'] = 'Testops site Login form'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
 

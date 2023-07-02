@@ -32,7 +32,7 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//div[@class='katalon-logo mb-5']/img[@alt='Katalon platform Logo']"
 
-verificationParam['visibleCheckpointElementName'] = 'Login form'
+verificationParam['visibleCheckpointElementName'] = 'Admin site Login form'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
 
