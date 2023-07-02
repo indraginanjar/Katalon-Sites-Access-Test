@@ -35,6 +35,18 @@
       <value></value>
       <variableId>54ec82a5-bb1f-4c8a-8d39-ffbfc6a645c4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42067492-28fe-4885-bdc0-0abf1cce7637</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06f68510-0c7b-41fc-bb46-e4bdb66fae66</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -69,5 +81,19 @@
       <id>54ec82a5-bb1f-4c8a-8d39-ffbfc6a645c4</id>
       <masked>false</masked>
       <name>visibleElementXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42067492-28fe-4885-bdc0-0abf1cce7637</id>
+      <masked>false</masked>
+      <name>visibleCheckpointElementName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06f68510-0c7b-41fc-bb46-e4bdb66fae66</id>
+      <masked>false</masked>
+      <name>visibleCheckpointElementXpath</name>
    </variable>
 </TestCaseEntity>

@@ -32,4 +32,8 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//div[@class='login-test-opts-logo mb-5']/img[@alt='Test Opts Logo']"
 
+verificationParam['visibleCheckpointElementName'] = 'Login form'
+
+verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
+
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

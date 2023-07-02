@@ -20,16 +20,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(
-	findTestCase('Test Cases/Steps/Verify element is present'),
-	[presentElementName:presentElementName, presentElementXpath: presentElementXpath]
-	)
+WebUI.waitForPageLoad(3)
 
-WebUI.callTestCase(
-	findTestCase('Test Cases/Steps/Verify element is visible'),
-	[visibleElementName:visibleElementName, visibleElementXpath: visibleElementXpath]
-	)
-
-WebUI.takeScreenshotAsCheckpoint(pageName)
+WebUI.takeScreenshot()
 
 WebUI.delay(3)
+
+if (presentElementXpath != '') {
+
+	WebUI.callTestCase(
+		findTestCase('Test Cases/Steps/Verify element is present'),
+		[presentElementName:presentElementName, presentElementXpath: presentElementXpath]
+		)
+}
+	
+if (visibleElementXpath != '') {
+	WebUI.callTestCase(
+		findTestCase('Test Cases/Steps/Verify element is visible'),
+		[visibleElementName:visibleElementName, visibleElementXpath: visibleElementXpath]
+		)
+}
+
+if (visibleCheckpointElementXpath != '') {
+	WebUI.callTestCase(
+		findTestCase('Test Cases/Steps/Verify checkpoint element is visible'),
+		[visibleCheckpointElementName:visibleCheckpointElementName, visibleCheckpointElementXpath: visibleCheckpointElementXpath]
+		)
+}

@@ -24,8 +24,9 @@ WebUI.maximizeWindow()
 
 String errorMessage = ''
 
+'If any, get browser not opened\'s error message'
 try {
-	String url = WebUI.getUrl()
+	WebUI.getUrl()
 } catch (BrowserNotOpenedException e) {
 	errorMessage = e.message;
 }

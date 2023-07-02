@@ -10,30 +10,30 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.SelectorMethod
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.testobject.TestObjectXpath
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+TestObject visibleCheckpointElement = new TestObject(visibleCheckpointElementName)
 
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonStoreWebUrl])
+TestObjectXpath visibleCheckpointElementXpath = new TestObjectXpath('xpath', ConditionType.EXPRESSION, visibleCheckpointElementXpath)
 
-Map verificationParam = [:]
+visibleCheckpointElement.addXpath(visibleCheckpointElementXpath)
 
-verificationParam['pageName'] = 'Katalon store site'
+visibleCheckpointElement.setSelectorMethod(SelectorMethod.XPATH)
 
-verificationParam['presentElementName'] = 'Page title'
+WebUI.verifyElementVisible(visibleCheckpointElement)
 
-verificationParam['presentElementXpath'] = "/html/head/title[text()='Katalon Store - Explore Plugins for Katalon Studio']"
+if(WebUI.verifyElementVisible(visibleCheckpointElement)) {
+	WebUI.scrollToElement(visibleCheckpointElement, 5)
 
-verificationParam['visibleElementName'] = 'Katalon Store logo'
+	WebUI.takeElementScreenshotAsCheckpoint(visibleCheckpointElementName, visibleCheckpointElement)
 
-verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
-
-verificationParam['visibleCheckpointElementName'] = 'Katalon store address on footer'
-
-verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
-
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)
+	WebUI.delay(3)
+}
