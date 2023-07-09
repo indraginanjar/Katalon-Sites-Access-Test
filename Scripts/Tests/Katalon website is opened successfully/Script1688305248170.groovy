@@ -20,4 +20,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonWebUrl])
 
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the website is opened successfully'), null)
+Map verificationParam = [:]
+
+verificationParam['screenshotElementOnPassingVisibleVerification'] = false
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = false
+
+verificationParam['secondsWaitingForPageLoad'] = 3
+
+WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the website is opened successfully'), verificationParam)

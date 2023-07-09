@@ -24,5 +24,23 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tests/Katalon website is opened successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f861e1c-22dd-483b-9249-748a6c7ffb4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18c8c67f-51c5-40df-80c6-30e137aab572</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26323551-9319-4214-8d68-52783bdef227</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

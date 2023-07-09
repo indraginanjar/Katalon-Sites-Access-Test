@@ -29,8 +29,14 @@ verificationParam['visibleElementName'] = 'Katalon Store logo'
 
 verificationParam['visibleElementXpath'] = "//img[@class='katalon-logo' and @alt='Katalon Store']"
 
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
+
 verificationParam['visibleCheckpointElementName'] = 'Store site address on footer'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='footer__content']/div[@class='row']/div[1]"
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
+
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

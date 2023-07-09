@@ -36,6 +36,12 @@
          <value></value>
          <variableId>ef22571f-3389-4aae-9f4f-a0effc202a1d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d66e1c01-9b5d-4386-b8c7-b21c8a32b2b3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1f2a217b-e46e-4443-a744-5f97a5752c64</guid>
@@ -43,6 +49,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tests/With element screenshot/Katalon admin site is opened successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>543853e1-f4e4-4242-acc0-8957f5ee3207</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e284a56-53cb-428c-960a-514f39b53fa2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f254be8-8009-477b-a1a7-cef0d66484a3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>19e0c413-9000-4516-81eb-13b799d5b67b</guid>
@@ -62,6 +86,12 @@
          <value></value>
          <variableId>95cbf8ce-7b82-4e95-bc2b-4e61ac100ad9</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71236905-931b-4ec4-8f4c-1de18ba24d69</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d2426ae3-5faa-4b06-acef-ffaf870f857b</guid>
@@ -80,6 +110,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>30d2a7aa-b499-4121-9b0a-82a9c6e5bf99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7976659a-73b3-40a0-9c87-3b337a86a257</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

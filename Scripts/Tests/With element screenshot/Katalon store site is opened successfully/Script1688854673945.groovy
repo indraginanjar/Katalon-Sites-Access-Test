@@ -22,8 +22,10 @@ WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:Glob
 
 Map verificationParam = [:]
 
-verificationParam['screenshotElementOnPassingVisibleVerification'] = true
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
 
-verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = true
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
+
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the store site is opened successfully'), verificationParam)

@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>909ceb83-fc19-4bf6-b652-5b745dae4b7f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6bc9d74-2f9c-47d6-bfd8-09e06afad858</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65226cf3-4050-4655-ac04-a0c55f479894</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afcac287-c2e5-4247-8b2f-6b603d2f0fea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f6bc9d74-2f9c-47d6-bfd8-09e06afad858</id>
+      <masked>false</masked>
+      <name>screenshotElementOnPassingVisibleVerification</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>65226cf3-4050-4655-ac04-a0c55f479894</id>
+      <masked>false</masked>
+      <name>screenshotCheckpointElementOnPassingVisibleVerification</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>afcac287-c2e5-4247-8b2f-6b603d2f0fea</id>
+      <masked>false</masked>
+      <name>secondsWaitingForPageLoad</name>
+   </variable>
 </TestCaseEntity>

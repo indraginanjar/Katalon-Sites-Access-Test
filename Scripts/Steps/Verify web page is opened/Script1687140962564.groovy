@@ -20,11 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForPageLoad(3)
-
-WebUI.takeScreenshot()
-
-WebUI.delay(3)
+WebUI.waitForPageLoad(secondsWaitingForPageLoad)
 
 if (presentElementXpath != '') {
 
@@ -33,7 +29,7 @@ if (presentElementXpath != '') {
 		[presentElementName:presentElementName, presentElementXpath: presentElementXpath]
 		)
 }
-	
+
 if (visibleElementXpath != '') {
 	WebUI.callTestCase(
 		findTestCase('Test Cases/Steps/Verify element is visible'),
@@ -47,3 +43,9 @@ if (visibleCheckpointElementXpath != '') {
 		[visibleCheckpointElementName:visibleCheckpointElementName, visibleCheckpointElementXpath: visibleCheckpointElementXpath, screenshotCheckpointElementOnPassingVisibleVerification: screenshotCheckpointElementOnPassingVisibleVerification]
 		)
 }
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.takeScreenshot()
+
+WebUI.delay(3)

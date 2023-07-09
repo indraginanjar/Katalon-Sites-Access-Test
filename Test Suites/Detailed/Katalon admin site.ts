@@ -24,5 +24,23 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tests/Katalon admin site is opened successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe255721-432d-4fc3-bfc8-856fd62077c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ff4a43e-d175-4afe-b31f-ac9971fcd3ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f73496e1-5232-4504-b4bd-85d3dd45e77d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

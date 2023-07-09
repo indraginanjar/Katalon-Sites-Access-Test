@@ -29,8 +29,14 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//div[@class='login-test-opts-logo mb-5']/img[@alt='Test Opts Logo']"
 
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
+
 verificationParam['visibleCheckpointElementName'] = 'Testops site Login form'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
+
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

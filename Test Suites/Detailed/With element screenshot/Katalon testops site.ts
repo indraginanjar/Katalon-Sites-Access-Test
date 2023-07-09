@@ -36,5 +36,11 @@
          <value></value>
          <variableId>95cbf8ce-7b82-4e95-bc2b-4e61ac100ad9</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71236905-931b-4ec4-8f4c-1de18ba24d69</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -20,4 +20,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonAdminWebUrl])
 
-WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the admin site is opened successfully'), null)
+Map verificationParam = [:]
+
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
+
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
+
+WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the admin site is opened successfully'), verificationParam)

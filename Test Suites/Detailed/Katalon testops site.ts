@@ -24,5 +24,23 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tests/Katalon testops site is opened successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc2d2da0-9682-4cbd-8a8a-ed179a77da14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f2662fd-395c-4c9a-a61e-115b94fb9bbb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b42d7df6-7f32-49b0-8aa3-c262e6363a00</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

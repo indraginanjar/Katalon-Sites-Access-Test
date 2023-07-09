@@ -29,8 +29,14 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//div[@class='katalon-logo mb-5']/img[@alt='Katalon platform Logo']"
 
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
+
 verificationParam['visibleCheckpointElementName'] = 'Admin site Login form'
 
 verificationParam['visibleCheckpointElementXpath'] = "//div[@class='login-card mx-auto shadow-none card']"
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
+
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

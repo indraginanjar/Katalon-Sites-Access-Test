@@ -37,4 +37,6 @@ verificationParam['visibleCheckpointElementXpath'] = "//section[@class='hero_sec
 
 verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
 
+verificationParam['secondsWaitingForPageLoad'] = secondsWaitingForPageLoad
+
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

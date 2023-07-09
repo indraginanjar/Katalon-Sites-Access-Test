@@ -17,18 +17,31 @@
       <value></value>
       <variableId>95cbf8ce-7b82-4e95-bc2b-4e61ac100ad9</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71236905-931b-4ec4-8f4c-1de18ba24d69</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>false</defaultValue>
+      <defaultValue>true</defaultValue>
       <description></description>
       <id>3f9afca1-6e88-488c-b6bd-ce1ef0ccb6cd</id>
       <masked>false</masked>
       <name>screenshotElementOnPassingVisibleVerification</name>
    </variable>
    <variable>
-      <defaultValue>false</defaultValue>
+      <defaultValue>true</defaultValue>
       <description></description>
       <id>95cbf8ce-7b82-4e95-bc2b-4e61ac100ad9</id>
       <masked>false</masked>
       <name>screenshotCheckpointElementOnPassingVisibleVerification</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>71236905-931b-4ec4-8f4c-1de18ba24d69</id>
+      <masked>false</masked>
+      <name>secondsWaitingForPageLoad</name>
    </variable>
 </TestCaseEntity>
