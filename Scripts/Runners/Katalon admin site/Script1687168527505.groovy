@@ -20,5 +20,5 @@ import org.openqa.selenium.Keys as Keys
 '''Given I have opened web browser
 When I open katalon admin site
 Then I verify the admin site is opened succesfully'''
-CucumberKW.runFeatureFileWithTags('Include/features/Katalon sites.feature', '@KatalonAdminSite')
+CucumberKW.runFeatureFileWithTags('Include/features/Katalon sites.feature', '@KatalonAdminSite and @PageScreenshot')
 

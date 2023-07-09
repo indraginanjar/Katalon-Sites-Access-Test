@@ -20,26 +20,51 @@
 Feature: Katalon sites
   I want to verify katalon sites is accessible from current local machine
 
-  @KatalonWebsite
+  @KatalonWebsite @PageScreenshot
   Scenario: I want to verify katalon website is accessible from current local machine
     Given I have opened web browser
     When I open katalon website
     Then I verify the website is opened succesfully
 
-  @KatalonAdminSite
+  @KatalonWebsite @WithElementScreenshot
+  Scenario: I want to verify katalon website is accessible from current local machine proofed by detailed screenshots
+    Given I have opened web browser
+    When I open katalon website
+    Then I verify the website is opened succesfully proofed by detailed screenshots
+
+  @KatalonAdminSite @PageScreenshot
   Scenario: I want to verify katalon admin site is accessible from current local machine
     Given I have opened web browser
     When I open katalon admin site
     Then I verify the admin site is opened succesfully
 
-  @KatalonTestopsSite
+  @KatalonAdminSite @WithElementScreenshot
+  Scenario: I want to verify katalon admin site is accessible from current local machine proofed by detailed screenshots
+    Given I have opened web browser
+    When I open katalon admin site
+    Then I verify the admin site is opened succesfully proofed by detailed screenshots
+
+  @KatalonTestopsSite @PageScreenshot
   Scenario: I want to verify katalon testops site is accessible from current local machine
     Given I have opened web browser
     When I open katalon testops site
     Then I verify the testops site is opened succesfully
 
-  @KatalonStoreSite
+  @KatalonTestopsSite @WithElementScreenshot
+  Scenario: I want to verify katalon testops site is accessible from current local machine proofed by detailed screenshots
+    Given I have opened web browser
+    When I open katalon testops site
+    Then I verify the testops site is opened succesfully proofed by detailed screenshots
+
+  @KatalonStoreSite @PageScreenshot
   Scenario: I want to verify katalon store site is accessible from current local machine
     Given I have opened web browser
     When I open katalon store site
     Then I verify the store site is opened succesfully
+
+  @KatalonStoreSite @WithElementScreenshot
+  Scenario: I want to verify katalon store site is accessible from current local machine proofed by detailed screenshots
+    Given I have opened web browser
+    When I open katalon store site
+    Then I verify the store site is opened succesfully proofed by detailed screenshots
+    

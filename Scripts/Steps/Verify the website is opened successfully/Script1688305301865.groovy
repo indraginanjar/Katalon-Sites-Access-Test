@@ -29,8 +29,12 @@ verificationParam['visibleElementName'] = 'Katalon logo'
 
 verificationParam['visibleElementXpath'] = "//a[@class='katalon_logo']/img[@alt='Katalon']"
 
+verificationParam['screenshotElementOnPassingVisibleVerification'] = screenshotElementOnPassingVisibleVerification
+
 verificationParam['visibleCheckpointElementName'] = 'Website Big title'
 
 verificationParam['visibleCheckpointElementXpath'] = "//section[@class='hero_section']//h1[@class='hero_title']"
+
+verificationParam['screenshotCheckpointElementOnPassingVisibleVerification'] = screenshotCheckpointElementOnPassingVisibleVerification
 
 WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify web page is opened'), verificationParam)

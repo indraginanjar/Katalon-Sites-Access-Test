@@ -60,6 +60,11 @@ class KatalonSites {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the website is opened successfully'), null)
 	}
 
+	@Then("I verify the website is opened succesfully proofed by detailed screenshots")
+	def I_verify_the_website_is_opened_succesfully_proofed_by_detailed_screenshots() {
+		WebUI.callTestCase(findTestCase('Test Cases/Tests/With element screenshot/Katalon website is opened successfully'), null)
+	}
+
 	@When("I open katalon admin site")
 	def I_open_katalon_admin_site() {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonAdminWebUrl])
@@ -68,6 +73,11 @@ class KatalonSites {
 	@Then("I verify the admin site is opened succesfully")
 	def I_verify_the_admin_site_is_opened_succesfully() {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the admin site is opened successfully'), null)
+	}
+
+	@Then("I verify the admin site is opened succesfully proofed by detailed screenshots")
+	def I_verify_the_admin_site_is_opened_succesfully_proofed_by_detailed_screenshots() {
+		WebUI.callTestCase(findTestCase('Test Cases/Tests/With element screenshot/Katalon admin site is opened successfully'), null)
 	}
 
 	@When("I open katalon testops site")
@@ -80,6 +90,11 @@ class KatalonSites {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the testops site is opened successfully'), null)
 	}
 
+	@Then("I verify the testops site is opened succesfully proofed by detailed screenshots")
+	def I_verify_the_testops_site_is_opened_succesfully_proofed_by_detailed_screenshots() {
+		WebUI.callTestCase(findTestCase('Test Cases/Tests/With element screenshot/Katalon testops site is opened successfully'), null)
+	}
+
 	@When("I open katalon store site")
 	def I_open_katalon_store_site() {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Open web page'), [pageUrl:GlobalVariable.katalonStoreWebUrl])
@@ -88,5 +103,10 @@ class KatalonSites {
 	@Then("I verify the store site is opened succesfully")
 	def I_verify_the_store_site_is_opened_succesfully() {
 		WebUI.callTestCase(findTestCase('Test Cases/Steps/Verify the store site is opened successfully'), null)
+	}
+
+	@Then("I verify the store site is opened succesfully proofed by detailed screenshots")
+	def I_verify_the_store_site_is_opened_succesfully_proofed_by_detailed_screenshots() {
+		WebUI.callTestCase(findTestCase('Test Cases/Tests/With element screenshot/Katalon store site is opened successfully'), null)
 	}
 }

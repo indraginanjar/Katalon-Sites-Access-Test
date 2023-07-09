@@ -47,6 +47,18 @@
       <value></value>
       <variableId>06f68510-0c7b-41fc-bb46-e4bdb66fae66</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9479701-0ca7-4f70-9c77-ff505e16716e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3253e38-f743-4738-906f-aff4b3d0a9cd</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -95,5 +107,19 @@
       <id>06f68510-0c7b-41fc-bb46-e4bdb66fae66</id>
       <masked>false</masked>
       <name>visibleCheckpointElementXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a9479701-0ca7-4f70-9c77-ff505e16716e</id>
+      <masked>false</masked>
+      <name>screenshotElementOnPassingVisibleVerification</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a3253e38-f743-4738-906f-aff4b3d0a9cd</id>
+      <masked>false</masked>
+      <name>screenshotCheckpointElementOnPassingVisibleVerification</name>
    </variable>
 </TestCaseEntity>

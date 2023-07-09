@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify the website is opened successfully</name>
+   <name>Katalon website is opened successfully</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3877b13-aa84-4a8d-bc8f-9ab893a6b030</testCaseGuid>
+   <testCaseGuid>961d1943-2cf8-4f61-9579-1d3f5509006e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>45432cb2-1352-46bc-97f9-db280ffffcf7</variableId>
+      <variableId>42349e20-47ba-42c4-b3ee-3f98152a4fb1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5bfe8bc5-b7ab-4bc6-aab8-bf8ce03d115f</variableId>
+      <variableId>ef22571f-3389-4aae-9f4f-a0effc202a1d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>false</defaultValue>
       <description></description>
-      <id>45432cb2-1352-46bc-97f9-db280ffffcf7</id>
+      <id>42349e20-47ba-42c4-b3ee-3f98152a4fb1</id>
       <masked>false</masked>
       <name>screenshotElementOnPassingVisibleVerification</name>
    </variable>
    <variable>
       <defaultValue>false</defaultValue>
       <description></description>
-      <id>5bfe8bc5-b7ab-4bc6-aab8-bf8ce03d115f</id>
+      <id>ef22571f-3389-4aae-9f4f-a0effc202a1d</id>
       <masked>false</masked>
       <name>screenshotCheckpointElementOnPassingVisibleVerification</name>
    </variable>

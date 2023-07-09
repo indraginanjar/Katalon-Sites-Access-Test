@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'''Given I have opened web browser
-When I open katalon website
-Then I verify the website is opened succesfully'''
-CucumberKW.runFeatureFileWithTags('Include/features/Katalon sites.feature', '@KatalonWebsite')
+'Given I have opened web browser\nWhen I open katalon website\nThen I verify the website is opened succesfully'
+CucumberKW.runFeatureFileWithTags('Include/features/Katalon sites.feature', '@KatalonWebsite and @PageScreenshot')
 

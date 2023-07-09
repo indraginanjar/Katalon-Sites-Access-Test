@@ -31,9 +31,12 @@ visibleCheckpointElement.setSelectorMethod(SelectorMethod.XPATH)
 WebUI.verifyElementVisible(visibleCheckpointElement)
 
 if(WebUI.verifyElementVisible(visibleCheckpointElement)) {
-	WebUI.scrollToElement(visibleCheckpointElement, 5)
-
-	WebUI.takeElementScreenshotAsCheckpoint(visibleCheckpointElementName, visibleCheckpointElement)
-
-	WebUI.delay(3)
+	
+	if (screenshotCheckpointElementOnPassingVisibleVerification) {
+		WebUI.scrollToElement(visibleCheckpointElement, 5)
+	
+		WebUI.takeElementScreenshotAsCheckpoint(visibleCheckpointElementName, visibleCheckpointElement)
+	
+		WebUI.delay(3)
+	}
 }

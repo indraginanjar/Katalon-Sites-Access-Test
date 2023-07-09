@@ -29,9 +29,12 @@ visibleElement.addXpath(visibleElementXpath)
 visibleElement.setSelectorMethod(SelectorMethod.XPATH)
 
 if (WebUI.verifyElementVisible(visibleElement)) {
-	WebUI.scrollToElement(visibleElement, 5)
-
-    WebUI.takeElementScreenshot(visibleElement)
-
-    WebUI.delay(3)
+	
+	if (screenshotElementOnPassingVisibleVerification) {
+		WebUI.scrollToElement(visibleElement, 5)
+	
+	    WebUI.takeElementScreenshot(visibleElement)
+	
+	    WebUI.delay(3)
+	}
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>I want to verify katalon admin site is accessible from current local machine proofed by detailed screenshots</description>
+   <name>Katalon admin site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6df4675-217e-4936-a2fb-1dd6a64ed3f1</testCaseGuid>
+</TestCaseEntity>

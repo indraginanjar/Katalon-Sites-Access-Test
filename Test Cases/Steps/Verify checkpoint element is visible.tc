@@ -23,6 +23,12 @@
       <value></value>
       <variableId>63846971-6393-42b7-9fdf-de85121215fa</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75685fb2-8d72-490d-b97b-19e457d4475d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -43,5 +49,12 @@
       <id>63846971-6393-42b7-9fdf-de85121215fa</id>
       <masked>false</masked>
       <name>visibleCheckpointElementXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>75685fb2-8d72-490d-b97b-19e457d4475d</id>
+      <masked>false</masked>
+      <name>screenshotCheckpointElementOnPassingVisibleVerification</name>
    </variable>
 </TestCaseEntity>
